@@ -63,7 +63,7 @@ CWeapon357::CWeapon357( void )
 }
 
 //-----------------------------------------------------------------------------
-// Purpose:
+// Purpose: Reload Animation Handler
 //-----------------------------------------------------------------------------
 void CWeapon357::Operator_HandleAnimEvent( animevent_t *pEvent, CBaseCombatCharacter *pOperator )
 {
