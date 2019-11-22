@@ -59,7 +59,7 @@ END_DATADESC()
 CWeapon357::CWeapon357( void )
 {
 	m_bReloadsSingly	= false;
-	m_bFiresUnderwater	= false;
+	m_bFiresUnderwater	= true;
 }
 
 //-----------------------------------------------------------------------------
@@ -91,7 +91,7 @@ void CWeapon357::Operator_HandleAnimEvent( animevent_t *pEvent, CBaseCombatChara
 }
 
 //-----------------------------------------------------------------------------
-// Purpose:
+// Purpose: Primary Attack
 //-----------------------------------------------------------------------------
 void CWeapon357::PrimaryAttack( void )
 {
