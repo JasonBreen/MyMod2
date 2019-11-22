@@ -1,6 +1,6 @@
 //========= Copyright Valve Corporation, All rights reserved. ============//
 //
-// Purpose: 
+// Purpose: RPG Launcher script
 //
 //=============================================================================//
 
@@ -39,7 +39,7 @@
 // memdbgon must be the last include file in a .cpp file!!!
 #include "tier0/memdbgon.h"
 
-#define	RPG_SPEED	1500
+#define	RPG_SPEED	600
 
 static ConVar sk_apc_missile_damage("sk_apc_missile_damage", "15");
 ConVar rpg_missle_use_custom_detonators( "rpg_missle_use_custom_detonators", "1" );
@@ -148,7 +148,7 @@ void CMissile::Precache( void )
 
 
 //-----------------------------------------------------------------------------
-// Purpose: 
+// Purpose: Spawner
 //
 //
 //-----------------------------------------------------------------------------
@@ -166,7 +166,7 @@ void CMissile::Spawn( void )
 	SetThink( &CMissile::IgniteThink );
 	
 	SetNextThink( gpGlobals->curtime + 0.3f );
-	SetDamage( 200.0f );
+	SetDamage( 600.0f );
 
 	m_takedamage = DAMAGE_YES;
 	m_iHealth = m_iMaxHealth = 100;

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "9"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"message" "test"
 	"skyname" "sky_day01_05"
@@ -1509,6 +1509,7 @@ entity
 	"id" "69"
 	"classname" "info_player_start"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"origin" "883.129 4635.77 65"
 	editor
 	{
