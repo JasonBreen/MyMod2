@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2"
+	"mapversion" "1"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,10 +20,9 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "1"
 	"classname" "worldspawn"
-	"message" "test"
-	"skyname" "sky_day01_05"
+	"skyname" "sky_day01_01"
 	"maxpropscreenwidth" "-1"
 	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
