@@ -162,7 +162,7 @@ void CWeaponAR2::ItemPostFrame( void )
 }
 
 //-----------------------------------------------------------------------------
-// Purpose: 
+// Purpose: Primary Attack Activity
 // Output : Activity
 //-----------------------------------------------------------------------------
 Activity CWeaponAR2::GetPrimaryAttackActivity( void )
@@ -180,7 +180,7 @@ Activity CWeaponAR2::GetPrimaryAttackActivity( void )
 }
 
 //-----------------------------------------------------------------------------
-// Purpose: 
+// Purpose: Impact Effect
 // Input  : &tr - 
 //			nDamageType - 
 //-----------------------------------------------------------------------------
@@ -466,7 +466,7 @@ void CWeaponAR2::Operator_HandleAnimEvent( animevent_t *pEvent, CBaseCombatChara
 }
 
 //-----------------------------------------------------------------------------
-// Purpose: 
+// Purpose: View Kick
 //-----------------------------------------------------------------------------
 void CWeaponAR2::AddViewKick( void )
 {
