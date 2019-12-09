@@ -1,6 +1,6 @@
 //========= Copyright Valve Corporation, All rights reserved. ============//
 //
-// Purpose: 
+// Purpose: Strider script
 //
 // $NoKeywords: $
 //=============================================================================//
