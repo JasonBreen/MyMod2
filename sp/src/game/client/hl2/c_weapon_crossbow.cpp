@@ -1,6 +1,6 @@
 //========= Copyright Valve Corporation, All rights reserved. ============//
 //
-// Purpose: 
+// Purpose: Crossbow Script
 //
 //=============================================================================//
 
@@ -50,7 +50,7 @@ IMPLEMENT_CLIENTCLASS_DT( C_CrossbowBolt, DT_CrossbowBolt, CCrossbowBolt )
 END_RECV_TABLE()
 
 //-----------------------------------------------------------------------------
-// Purpose: 
+// Purpose: Init
 //-----------------------------------------------------------------------------
 C_CrossbowBolt::C_CrossbowBolt( void )
 {
